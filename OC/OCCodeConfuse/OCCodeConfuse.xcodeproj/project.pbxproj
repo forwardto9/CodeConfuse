@@ -16,6 +16,7 @@
 		C2F6D586229BE70100F61CBD /* confuse.sh in Resources */ = {isa = PBXBuildFile; fileRef = C2F6D584229BE70100F61CBD /* confuse.sh */; };
 		C2F6D587229BE70100F61CBD /* func.list in Resources */ = {isa = PBXBuildFile; fileRef = C2F6D585229BE70100F61CBD /* func.list */; };
 		C2F6D58A229BEBCD00F61CBD /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F6D589229BEBCD00F61CBD /* MyClass.m */; };
+		C2FDB2A3229CE32800CBADAA /* QWLoadableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FDB2A1229CE32800CBADAA /* QWLoadableManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,9 @@
 		C2F6D585229BE70100F61CBD /* func.list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = func.list; sourceTree = "<group>"; };
 		C2F6D588229BEBCD00F61CBD /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		C2F6D589229BEBCD00F61CBD /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		C2FDB2A0229CE32800CBADAA /* QWLoadableManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWLoadableManager.h; sourceTree = "<group>"; };
+		C2FDB2A1229CE32800CBADAA /* QWLoadableManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWLoadableManager.m; sourceTree = "<group>"; };
+		C2FDB2A2229CE32800CBADAA /* QWLoadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWLoadable.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,9 @@
 		C2F6D56B229BE48500F61CBD /* OCCodeConfuse */ = {
 			isa = PBXGroup;
 			children = (
+				C2FDB2A2229CE32800CBADAA /* QWLoadable.h */,
+				C2FDB2A0229CE32800CBADAA /* QWLoadableManager.h */,
+				C2FDB2A1229CE32800CBADAA /* QWLoadableManager.m */,
 				C2F6D56C229BE48500F61CBD /* AppDelegate.h */,
 				C2F6D56D229BE48500F61CBD /* AppDelegate.m */,
 				C2F6D56F229BE48500F61CBD /* ViewController.h */,
@@ -180,6 +187,7 @@
 				C2F6D58A229BEBCD00F61CBD /* MyClass.m in Sources */,
 				C2F6D571229BE48500F61CBD /* ViewController.m in Sources */,
 				C2F6D57C229BE48600F61CBD /* main.m in Sources */,
+				C2FDB2A3229CE32800CBADAA /* QWLoadableManager.m in Sources */,
 				C2F6D56E229BE48500F61CBD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
