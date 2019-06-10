@@ -9,6 +9,15 @@
 #import "MyClass.h"
 #import "QWLoadable.h"
 
+
+@interface XXXXXXClass : NSObject
+
+@end
+
+@implementation XXXXXXClass
+
+@end
+
 @implementation MyClass
 
 + (void)userDefinedLoad {}

@@ -16,6 +16,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSLog(@"thisq");
 }
 
 - (void)testMethod:(NSString *)name withParam1:(int )x andParam2:(id)y {
