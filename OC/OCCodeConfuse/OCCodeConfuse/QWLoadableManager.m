@@ -49,9 +49,8 @@ static void QWLoadableRun(){
 #endif /* defined(__LP64__) */
     
     CFTimeInterval loadComplete = CFAbsoluteTimeGetCurrent();
-    NSLog(@"QWLoadable:loadcost:%@ms",@(1000.0*(loadComplete-loadStart)));
+    printf("WLoadable:loadcost: %f ms \n", (1000.0*(loadComplete-loadStart)));
     if(size == 0){
-        NSLog(@"QWLoadable:empty");
         return;
     }
     
@@ -59,8 +58,7 @@ static void QWLoadableRun(){
         QWLoadableFunctionTemplate func = (QWLoadableFunctionTemplate)memory[idx];
         func(QWLoadableFunctionCallbackImpl);
     }
-    
-    NSLog(@"QWLoadable:callcost:%@ms",@(1000.0*(CFAbsoluteTimeGetCurrent()-loadComplete)));
+    printf("QWLoadable:callcost: %f ms\n", (1000.0*(CFAbsoluteTimeGetCurrent()-loadComplete)));
 }
 
 @implementation QWLoadableManager
