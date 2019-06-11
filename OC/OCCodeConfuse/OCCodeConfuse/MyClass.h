@@ -18,7 +18,7 @@ __attribute__((objc_runtime_name("MCD")))
 @end
 
 __attribute__((objc_runtime_name("MC")))
-@interface MyClass : NSObject
+@interface MyClass : NSObject<MyClassDelegate>
 
 @end
 
